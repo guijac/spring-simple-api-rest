@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="LogInJSON" target="SYSTEM_OUT">
+        	<JsonLayout complete="true" compact="true">
+            	<KeyValuePair key="StudytonightField" value="studytonightValue" />
+        	</JsonLayout>
+    	</Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.guijac.log4j2" level="debug" additivity="false">
+            <AppenderRef ref="LogInJSON"/>
+        </Logger>
+        <Logger name="com.guijac.log4j2" level="info" additivity="false">
+            <AppenderRef ref="LogInJSON"/>
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="LogInJSON"/>
+        </Root>
+    </Loggers>
+</Configuration>
