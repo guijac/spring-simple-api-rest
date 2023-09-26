@@ -11,11 +11,11 @@ Exemplo simples demonstrando o uso e propriedade dos métodos/verbos HTTP atrav�
 | DELETE  | Deletar um recurso                | Delete | Não         | Não          | Não     |
 | PATCH   | Atualizar parcialmente um recurso | Update | Sim          | Sim           | Não     |
 
-![Alt text](image.png)
-
 ¹ Em Matemática ou Ciência da Computação, propriedade de uma operação ser aplicada mais de uma vez sem que haja alteração em seu resultado.
 
 ² Método que não altera um dado no lado servidor
+
+![Alt text](image.png)
 
 ## Uso local
 
